@@ -1,16 +1,17 @@
 {
-  "name": "postcss-svg",
-  "version": "3.0.0",
+  "name": "postcss-svg-legacy",
+  "version": "3.0.1",
   "description": "Inline SVGs in CSS. Supports SVG Fragments, SVG Parameters.",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "contributors": [
     "Pavel Gorlov <i@pavliko.com>",
-    "Jonathan Neal <jonathantneal@hotmail.com>"
+    "Jonathan Neal <jonathantneal@hotmail.com>",
+    "Alejandro Ponce <alejandropb46@gmail.com>"
   ],
   "license": "CC0-1.0",
-  "repository": "jonathantneal/postcss-svg",
-  "homepage": "https://github.com/jonathantneal/postcss-svg#readme",
-  "bugs": "https://github.com/jonathantneal/postcss-svg/issues",
+  "repository": "alejandropb36/postcss-svg-legacy",
+  "homepage": "https://github.com/alejandropb36/postcss-svg-legacy#readme",
+  "bugs": "https://github.com/alejandropb36/postcss-svg-legacy/issues",
   "main": "index.js",
   "module": "index.mjs",
   "files": [
@@ -30,10 +31,10 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "postcss": "^7.0.6",
-    "postcss-values-parser": "^2.0.0",
-    "svgo": "^1.1.1",
-    "xmldoc": "^1.1.2"
+    "postcss": "7.0.6",
+    "postcss-values-parser": "2.0.0",
+    "svgo": "1.1.1",
+    "xmldoc": "1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",

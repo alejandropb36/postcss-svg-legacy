@@ -1,5 +1,9 @@
 # Changes to PostCSS SVG
 
+### 3.0.1 (July 06, 2026)
+
+- Fix dependencies
+
 ### 3.0.0 (November 29, 2018)
 
 - Support Node 6+

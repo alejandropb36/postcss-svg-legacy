@@ -106,7 +106,7 @@ postcssSVG({
 [git-img]: https://img.shields.io/badge/support-chat-blue.svg
 [git-url]: https://gitter.im/postcss/postcss
 [npm-img]: https://img.shields.io/npm/v/postcss-svg.svg
-[npm-url]: https://www.npmjs.com/package/postcss-svg
+[npm-url]: https://www.npmjs.com/package/postcss-svg-legacy
 
 [PostCSS]: https://github.com/postcss/postcss
 [PostCSS SVG]: https://github.com/jonathantneal/postcss-svg
