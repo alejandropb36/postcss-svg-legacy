@@ -1,6 +1,6 @@
 # Changes to PostCSS SVG
 
-### 3.0.1 (July 06, 2026)
+### 3.0.1 (July 06, 2023)
 
 - Fix dependencies
 
