@@ -4,6 +4,9 @@
 [![Build Status][cli-img]][cli-url]
 [![Support Chat][git-img]][git-url]
 
+## The purpose of this fork is to maintain the functionality of the [postcss-svg](https://www.npmjs.com/package/postcss-svg) package in legacy projects.
+
+
 [PostCSS SVG] lets you inline SVGs in CSS.
 
 ```pcss
@@ -46,13 +49,13 @@ The location of an SVG is intelligently resolved using the
 Add [PostCSS SVG] to your project:
 
 ```bash
-npm install postcss-svg --save-dev
+npm install postcss-svg-legacy --save-dev
 ```
 
 Use [PostCSS SVG] to process your CSS:
 
 ```js
-const postcssSVG = require('postcss-svg');
+const postcssSVG = require('postcss-svg-legacy');
 
 postcssSVG.process(YOUR_CSS /*, processOptions, pluginOptions */);
 ```
@@ -61,7 +64,7 @@ Or use it as a [PostCSS] plugin:
 
 ```js
 const postcss = require('postcss');
-const postcssSVG = require('postcss-svg');
+const postcssSVG = require('postcss-svg-legacy');
 
 postcss([
   postcssSVG(/* pluginOptions */)
